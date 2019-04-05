@@ -22,13 +22,7 @@ public class Main {
         dev.getStaffList().add(johnL);
         dev.getStaffList().add(herveP);
 
-        System.out.println("jlW Salary Total Pay:");
-        System.out.println(jlW.sumSalary());
-
-        System.out.println("jlW Salary Average :");
-        System.out.println(jlW.sumAverage());
-
-        /*System.out.println(jlW.getServiceList().size());
+        System.out.println(jlW.getServiceList().size());
         //System.out.println(jlDp.serviceList.size());
 
         System.out.println("Company jlW Service:");
@@ -41,7 +35,13 @@ public class Main {
         System.out.println(johnL.fullname());
         System.out.println(johnL.getSalary());
         System.out.println("Average Salary");
-        System.out.println(web.getStaffList());*/
+        System.out.println(web.getStaffList());
+
+        System.out.println("jlW Salary Total Pay:");
+        System.out.println(jlW.sumSalary());
+
+        System.out.println("jlW Salary Average :");
+        System.out.println(jlW.sumAverage());
 
     }
 }
