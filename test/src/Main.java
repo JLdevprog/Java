@@ -39,9 +39,16 @@ public class Main {
 
         System.out.println("jlW Salary Total Pay:");
         System.out.println(jlW.sumSalary());
-
         System.out.println("jlW Salary Average :");
         System.out.println(jlW.sumAverage());
+        System.out.println("jlW Web Service Salary Pay :");
+        System.out.println(web.sumTotal());
+        System.out.println("jlW Dev Service Salary Pay :");
+        System.out.println(dev.sumTotal());
+        System.out.println("jlW Web Service Salary Average :");
+        System.out.println(web.sumAverage());
+        System.out.println("jlW Dev Service Salary Average :");
+        System.out.println(dev.sumAverage());
 
     }
 }
