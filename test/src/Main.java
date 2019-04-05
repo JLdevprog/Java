@@ -1,3 +1,7 @@
+import TP.company.Enterprise;
+import TP.company.Service;
+import TP.company.Staff;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -25,11 +29,11 @@ public class Main {
         System.out.println(jlW.getServiceList().size());
         //System.out.println(jlDp.serviceList.size());
 
-        System.out.println("Company jlW Service:");
+        System.out.println("Company jlW TP.company.Service:");
         System.out.println(jlW.getServiceList());
-        System.out.println("Web Staff List:");
+        System.out.println("Web TP.company.Staff List:");
         System.out.println(web.getName());
-        System.out.println("Dev Staff List:");
+        System.out.println("Dev TP.company.Staff List:");
         System.out.println(dev.getStaffList());
         System.out.println(johnL.detail());
         System.out.println(johnL.fullname());
@@ -41,13 +45,13 @@ public class Main {
         System.out.println(jlW.sumSalary());
         System.out.println("jlW Salary Average :");
         System.out.println(jlW.sumAverage());
-        System.out.println("jlW Web Service Salary Pay :");
+        System.out.println("jlW Web TP.company.Service Salary Pay :");
         System.out.println(web.sumTotal());
-        System.out.println("jlW Dev Service Salary Pay :");
+        System.out.println("jlW Dev TP.company.Service Salary Pay :");
         System.out.println(dev.sumTotal());
-        System.out.println("jlW Web Service Salary Average :");
+        System.out.println("jlW Web TP.company.Service Salary Average :");
         System.out.println(web.sumAverage());
-        System.out.println("jlW Dev Service Salary Average :");
+        System.out.println("jlW Dev TP.company.Service Salary Average :");
         System.out.println(dev.sumAverage());
 
     }
