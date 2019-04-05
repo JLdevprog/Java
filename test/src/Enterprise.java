@@ -15,6 +15,7 @@ public class Enterprise {
         this.serviceList = serviceList;
     }
 
+
     public int sumSalary(){
 
         int amoutTotal = 0;
@@ -23,13 +24,8 @@ public class Enterprise {
 
             Service tempService = serviceList.get(i);
 
-            for(int j=0; j < tempService.getStaffList().size();j++){
+            amoutTotal += tempService.sumTotal();
 
-                Staff tempStaff = tempService.getStaffList().get(j);
-
-                amoutTotal += tempStaff.getSalary();
-
-            }
 
         }
         return amoutTotal;
