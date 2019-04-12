@@ -58,7 +58,9 @@ public class Main {
 
         Driver Toto = new Driver("A","Toto","Titi",2000);
 
-        System.out.println(Toto.getName()+Toto.getSurname()+Toto.getSalary()+Toto.license);
+        System.out.println(Toto.getName()+Toto.getSurname()+Toto.getSalary()+Toto.getLicense());
+
+        System.out.println();
 
     }
 }
