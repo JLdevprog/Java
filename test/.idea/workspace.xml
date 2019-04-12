@@ -2,13 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf518ceb-368b-4eb1-8980-80594756a87e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TP/company/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ifaJava/src/tp/jeu/exemple/ExampleImageS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Entreprise.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Entreprise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Salarie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Salarie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleBoucle$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleBoucle$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleBoucle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleBoucle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFenetre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFermeture$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFermeture$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFermeture.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFermeture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleImage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleImage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleSourie$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleSourie$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleSourie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleSourie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleText$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleText$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleText.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleTouche$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleTouche$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleTouche.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleTouche.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/TP/Enterprise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/TP/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/TP/Staff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/TP/company/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/TP/company/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/TP/company/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/TP/company/Staff.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TP/company/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP/company/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TP/company/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP/company/Staff.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="60" column="89" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
+            <state relative-caret-position="252">
+              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TP/company/Staff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="373">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -55,8 +78,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TP/company/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/TP/entreprise/Enterprise.java" />
         <option value="$PROJECT_DIR$/src/Enterprise.java" />
         <option value="$PROJECT_DIR$/src/TP/Enterprise.java" />
-        <option value="$PROJECT_DIR$/src/TP/company/Staff.java" />
         <option value="$PROJECT_DIR$/src/TP/company/driver.java" />
+        <option value="$PROJECT_DIR$/src/TP/company/Staff.java" />
         <option value="$PROJECT_DIR$/src/TP/company/Driver.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
@@ -172,9 +199,9 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -238,12 +265,12 @@
       <workItem from="1554469950531" duration="2166000" />
       <workItem from="1554474023238" duration="664000" />
       <workItem from="1554474694882" duration="908000" />
-      <workItem from="1555051847027" duration="2064000" />
+      <workItem from="1555051847027" duration="4540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36645000" />
+    <option name="totallyTimeSpent" value="39121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -256,6 +283,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="43" width="1260" height="683" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18555008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -344,27 +372,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP/company/Staff.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="252">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TP/company/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="240">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/TP/company/Staff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="60" column="89" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="373">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -407,6 +439,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -418,7 +451,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>testm</last-edited>
+          <last-edited>test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

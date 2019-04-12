@@ -2,7 +2,7 @@ package TP.company;
 
 public class Driver extends Staff{
 
-    public String license;
+    private String license;
 
     public Driver (String license,String name, String surname, int salary)
     {
@@ -11,5 +11,11 @@ public class Driver extends Staff{
 
         System.out.println(license);
     }
+    public String getLicense() {
+        return license;
+    }
 
+    public void printDetails() {
+        super.setName(name);
+    }
 }

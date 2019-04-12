@@ -3,9 +3,9 @@ package TP.company;
 import java.util.ArrayList;
 
 public class Staff {
-    private String name;
-    private String surname;
-    private int salary;
+    protected String name;
+    protected String surname;
+    protected int salary;
 
     public Staff(String name, String surname, int salary) {
 
