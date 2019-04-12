@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf518ceb-368b-4eb1-8980-80594756a87e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ifaJava/src/tp/jeu/exemple/ExampleImageS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ifaJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Entreprise.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Entreprise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Salarie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Salarie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/entreprise/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleBoucle$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleBoucle$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleBoucle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleBoucle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFenetre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFermeture$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFermeture$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFermeture.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleFermeture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleForme2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleImage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleImage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleSourie$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleSourie$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleSourie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleSourie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleText$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleText$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleText.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleTouche$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleTouche$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleTouche.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ifaJava/out/production/ifa/tp/jeu/exemple/ExampleTouche.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/TP/company/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/TP/company/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/TP/company/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/TP/company/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TP/company/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP/company/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TP/company/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP/company/Staff.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -294,7 +265,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32994923" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40947548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40947548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

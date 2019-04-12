@@ -1,4 +1,4 @@
-package tp.jeu.exemple;
+package tp.jeu.core;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
