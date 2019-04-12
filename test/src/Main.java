@@ -1,3 +1,4 @@
+import TP.company.Driver;
 import TP.company.Enterprise;
 import TP.company.Service;
 import TP.company.Staff;
@@ -53,6 +54,11 @@ public class Main {
         System.out.println(web.sumAverage());
         System.out.println("jlW Dev TP.company.Service Salary Average :");
         System.out.println(dev.sumAverage());
+
+
+        Driver Toto = new Driver("A","Toto","Titi",2000);
+
+        System.out.println(Toto.getName()+Toto.getSurname()+Toto.getSalary()+Toto.license);
 
     }
 }
