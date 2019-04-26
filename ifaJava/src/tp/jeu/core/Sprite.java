@@ -11,12 +11,28 @@ public class Sprite {
     protected int y = 0;
     protected int width = 0;
     protected int length = 0;
-    protected Color color = Color.GRAY;
-    protected String image = "body.png";
+    protected Color color = null;
+    protected String image = null;
+
+    public Sprite(int x, int y, int width, int length, String image) {
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.length = length;
+        this.image = image;
+    }
+
+    public Sprite(int x, int y, int width, int length, Color color) {
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.length = length;
+        this.color = color;
+    }
 
     public void draw(Graphics graphics){
 
-        if(image!=""){
+        if(image!=null){
             BufferedImage imageSource;
 
             URL url = this.getClass().getClassLoader().getResource(this.image);
@@ -26,35 +42,30 @@ public class Sprite {
 
                 int typeImage = imageSource.getType() == 0? BufferedImage.TYPE_INT_ARGB : imageSource.getType();
 
-                BufferedImage imageRedimensionne = new BufferedImage(50, 50, typeImage);
+                BufferedImage imageRedimensionne = new BufferedImage(width, length, typeImage);
 
-                graphics.drawImage(imageSource, getX(), getY(), 50, 50, null);
-                graphics.dispose();
+                graphics.drawImage(imageSource, getX(), getY(), width, length, null);
+                //graphics.dispose();
 
                 GraphicsConfiguration gc = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDefaultConfiguration();
-                BufferedImage image = gc.createCompatibleImage(50, 50, Transparency.BITMASK);
+                BufferedImage image = gc.createCompatibleImage(width, length, Transparency.BITMASK);
 
-                image.getGraphics().drawImage(imageRedimensionne,0,0,null);
+                image.getGraphics().drawImage(imageRedimensionne,x,y,null);
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
         else {
             graphics.setColor(this.color);
+            graphics.fillRect(  this.x,
+                    this.y,
+                    this.width,
+                    this.length);
         }
 
-        graphics.fillRect(  this.x,
-                            this.y,
-                            this.width,
-                            this.length);
+
     }
 
-    public Sprite(int x, int y, int width, int length) {
-        this.x = x;
-        this.y = y;
-        this.width = width;
-        this.length = length;
-    }
 
     public int getX() {
         return x;

@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa7ad070-c305-441b-ab8d-4b986e42e499" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tp/jeu/core/HitSprite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tp/jeu/core/MoveSprite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tp/jeu/core/Sprite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tp/jeu/core/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ifa/tp/jeu/exemple/ExampleImageS$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ifa/tp/jeu/exemple/ExampleImageS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tp/jeu/exemple/ExampleImageS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp/jeu/core/ExampleImageS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ifa/META-INF/ifa.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ifa/tp/jeu/core/MoveSprite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ifa/tp/jeu/core/MoveSprite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ifa/tp/jeu/core/Sprite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ifa/tp/jeu/core/Sprite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ifa/tp/jeu/core/UI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ifa/tp/jeu/core/UI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ifa/tp/jeu/core/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ifa/tp/jeu/core/UI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tp/jeu/core/HitSprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp/jeu/core/HitSprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tp/jeu/core/MoveSprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp/jeu/core/MoveSprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tp/jeu/core/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp/jeu/core/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tp/jeu/core/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp/jeu/core/UI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/ExampleImageS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="315">
               <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
             </state>
           </provider>
@@ -36,21 +37,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tp/jeu/exemple/ExampleTouche.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="e#1919#1920#0" expanded="true" />
-                <element signature="e#1943#1944#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="230">
+              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -58,19 +55,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/Sprite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="930">
+              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1798#1799#0" expanded="true" />
-                <element signature="e#1855#1856#0" expanded="true" />
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1961#1962#0" expanded="true" />
-                <element signature="e#2018#2019#0" expanded="true" />
-                <element signature="e#2091#2092#0" expanded="true" />
-                <element signature="e#2150#2151#0" expanded="true" />
-                <element signature="e#2227#2228#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/HitSprite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -78,29 +76,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/MoveSprite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="8" column="71" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="71" />
               <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/HitSprite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -117,6 +108,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>exemple</find>
+      <find>draw</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/resources</dir>
@@ -156,10 +148,10 @@
         <option value="$PROJECT_DIR$/src/tp/jeu/exemple/ExampleImageS.java" />
         <option value="$PROJECT_DIR$/src/tp/jeu/core/Spite.java" />
         <option value="$PROJECT_DIR$/src/tp/jeu/core/Move.java" />
-        <option value="$PROJECT_DIR$/src/tp/jeu/core/Sprite.java" />
-        <option value="$PROJECT_DIR$/src/tp/jeu/core/UI.java" />
         <option value="$PROJECT_DIR$/src/tp/jeu/core/MoveSprite.java" />
         <option value="$PROJECT_DIR$/src/tp/jeu/core/HitSprite.java" />
+        <option value="$PROJECT_DIR$/src/tp/jeu/core/Sprite.java" />
+        <option value="$PROJECT_DIR$/src/tp/jeu/core/UI.java" />
       </list>
     </option>
   </component>
@@ -169,11 +161,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="43" />
-    <option name="width" value="1260" />
-    <option name="height" value="683" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,6 +175,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,20 +192,7 @@
               <item name="ifaJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ifaJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ifaJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifaJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ifaJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifaJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tp" type="462c0819:PsiDirectoryNode" />
-              <item name="entreprise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ifaJava" type="b2602c69:ProjectViewProjectNode" />
@@ -242,7 +221,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,18 +378,18 @@
       <workItem from="1554445845710" duration="6067000" />
       <workItem from="1555015279981" duration="6046000" />
       <workItem from="1555053745796" duration="5552000" />
-      <workItem from="1555068986044" duration="11988000" />
+      <workItem from="1555068986044" duration="12138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37874000" />
+    <option name="totallyTimeSpent" value="38024000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="722" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6786427" visible="true" weight="0.25282714" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6786427" visible="true" weight="0.2609047" />
       <window_info id="Structure" order="1" sideWeight="0.32071713" side_tool="true" weight="0.24508321" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,7 +398,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1904762" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18927445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,7 +407,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32753164" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -549,72 +527,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp/jeu/exemple/ExampleTouche.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/ExampleImageS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="315">
           <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/UI.java">
+    <entry file="file://$PROJECT_DIR$/src/tp/jeu/exemple/ExampleTouche.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1943#1944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/Sprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1798#1799#0" expanded="true" />
-            <element signature="e#1855#1856#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1961#1962#0" expanded="true" />
-            <element signature="e#2018#2019#0" expanded="true" />
-            <element signature="e#2091#2092#0" expanded="true" />
-            <element signature="e#2150#2151#0" expanded="true" />
-            <element signature="e#2227#2228#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/MoveSprite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="71" />
           <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/HitSprite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/Sprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp/jeu/core/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
         </state>
       </provider>
     </entry>

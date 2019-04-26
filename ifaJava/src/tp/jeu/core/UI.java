@@ -9,11 +9,15 @@ import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 
 public class UI extends Canvas {
 
     boolean arreter = false;
-    MoveSprite sprite;
+
+    ArrayList<Sprite>listSpriteStatic = new ArrayList<>();
+    ArrayList<HitSprite>listSpriteDynamic = new ArrayList<>();
+
     BufferStrategy strategy;
 
     protected UI() {
@@ -37,7 +41,24 @@ public class UI extends Canvas {
         setIgnoreRepaint(true);
         strategy = this.getBufferStrategy();
 
-        this.sprite = new MoveSprite(5,5,50,50);
+        Sprite background = new Sprite (0,0,500,500, Color.white);
+        this.listSpriteStatic.add(background);
+
+        //this.sprite = new MoveSprite(5,5,50,50);
+        HitSprite ball1 = new HitSprite(50,100,20,20, "ball.png");
+        ball1.setMoveX(5);
+        ball1.setMoveY(5);
+        this.listSpriteDynamic.add(ball1);
+
+        HitSprite ball2 = new HitSprite(50,100,20,20, "ball.png");
+        ball2.setMoveX(2);
+        ball2.setMoveY(5);
+        this.listSpriteDynamic.add(ball2);
+
+        HitSprite ball3 = new HitSprite(50,100,20,20, "ball.png");
+        ball3.setMoveX(5);
+        ball3.setMoveY(2);
+        this.listSpriteDynamic.add(ball3);
 
         boucle();
     }
@@ -56,11 +77,20 @@ public class UI extends Canvas {
 
         Graphics draw = strategy.getDrawGraphics();
 
-        //Create Background
-        draw.setColor(Color.WHITE);
-        draw.fillRect(0,0,500,500);
+        for (int i = 0; i < listSpriteStatic.size();i++){
+            this.listSpriteStatic.get(i).draw(draw);
+        }
 
-        this.sprite.move();
+        for (int i = 0; i < listSpriteDynamic.size();i++){
+            this.listSpriteDynamic.get(i).move();
+            this.listSpriteDynamic.get(i).draw(draw);
+        }
+
+        //Create Background
+        //draw.setColor(Color.WHITE);
+        //draw.fillRect(0,0,500,500);
+
+        //this.sprite.move();
 
         /*
         if(this.sprite.move() == int 500){
@@ -71,7 +101,7 @@ public class UI extends Canvas {
         }
         */
 
-        this.sprite.draw(draw);
+        //this.sprite.draw(draw);
         draw.dispose();
         strategy.show();
 
