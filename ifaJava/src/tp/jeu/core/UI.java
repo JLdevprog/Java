@@ -17,7 +17,7 @@ public class UI extends Canvas {
 
     ArrayList<Sprite>listSpriteStatic = new ArrayList<>();
     ArrayList<HitSprite>listSpriteDynamic = new ArrayList<>();
-
+    HitSprite ball1;
     BufferStrategy strategy;
 
     protected UI() {
@@ -45,20 +45,30 @@ public class UI extends Canvas {
         this.listSpriteStatic.add(background);
 
         //this.sprite = new MoveSprite(5,5,50,50);
-        HitSprite ball1 = new HitSprite(50,100,20,20, "ball.png");
-        ball1.setMoveX(5);
+        ball1 = new HitSprite(50,100,20,20, "ball.png");
+        ball1.setMoveX(2);
         ball1.setMoveY(5);
         this.listSpriteDynamic.add(ball1);
 
-        HitSprite ball2 = new HitSprite(50,100,20,20, "ball.png");
-        ball2.setMoveX(2);
-        ball2.setMoveY(5);
-        this.listSpriteDynamic.add(ball2);
+//        HitSprite ball2 = new HitSprite(50,100,20,20, "ball.png");
+//        ball2.setMoveX(2);
+//        ball2.setMoveY(5);
+//        this.listSpriteDynamic.add(ball2);
+//
+//        HitSprite ball3 = new HitSprite(50,100,20,20, "ball.png");
+//        ball3.setMoveX(5);
+//        ball3.setMoveY(2);
+//        this.listSpriteDynamic.add(ball3);
+//
+//        HitSprite JohnDoe = new HitSprite(225,225,50,50, "body.png");
+//        JohnDoe.setMoveX(0);
+//        JohnDoe.setMoveY(0);
+//        this.listSpriteDynamic.add(JohnDoe);
 
-        HitSprite ball3 = new HitSprite(50,100,20,20, "ball.png");
-        ball3.setMoveX(5);
-        ball3.setMoveY(2);
-        this.listSpriteDynamic.add(ball3);
+        HitSprite paddle = new HitSprite(185,450,150,25, "ball.png");
+        paddle.setMoveX(0);
+        paddle.setMoveY(0);
+        this.listSpriteDynamic.add(paddle);
 
         boucle();
     }
@@ -83,6 +93,10 @@ public class UI extends Canvas {
 
         for (int i = 0; i < listSpriteDynamic.size();i++){
             this.listSpriteDynamic.get(i).move();
+            if(this.ball1.collider(listSpriteDynamic.get(i))){
+                this.ball1.setMoveY(-2);
+                this.ball1.setMoveX(-2);
+            }
             this.listSpriteDynamic.get(i).draw(draw);
         }
 
