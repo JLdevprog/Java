@@ -27,12 +27,19 @@ public class Zeldo extends UI{
     public void keyPressed(KeyEvent e) {
         if(e.getKeyCode() == KeyEvent.VK_LEFT){
             player.setX(player.getX() - 50);
-        } else if(e.getKeyCode() == KeyEvent.VK_RIGHT){
+            player.setCouleur(Color.yellow);
+        }
+        else if(e.getKeyCode() == KeyEvent.VK_RIGHT){
             player.setX(player.getX() + 50);
-        } else if(e.getKeyCode() == KeyEvent.VK_UP){
+            player.setCouleur(Color.green);
+        }
+        else if(e.getKeyCode() == KeyEvent.VK_UP){
             player.setY(player.getY() - 50);
-        } else if(e.getKeyCode() == KeyEvent.VK_DOWN){
+            player.setCouleur(Color.blue);
+        }
+        else if(e.getKeyCode() == KeyEvent.VK_DOWN){
             player.setY(player.getY() + 50);
+            player.setCouleur(Color.red);
         }
     }
 
@@ -40,6 +47,7 @@ public class Zeldo extends UI{
     public static void main(String[] args) {
 
         new Zeldo();
+
         new Grid();
 
     }
